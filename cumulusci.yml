@@ -1,0 +1,25 @@
+minimum_cumulusci_version: '3.43.0'
+project:
+    name: TechRequest
+    package:
+        name: TechRequest
+        namespace: cUnite
+        api_version: '52.0'
+    git:
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/TechRequest/tests
+            options:
+                outputdir: robot/TechRequest/results
+
+    robot_testdoc:
+        options:
+            path: robot/TechRequest/tests
+            output: robot/TechRequest/doc/TechRequest_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
