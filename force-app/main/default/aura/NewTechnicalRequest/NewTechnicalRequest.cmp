@@ -1,0 +1,9 @@
+<!--
+ - Created by bob on 2019-02-16.
+ -->
+
+<aura:component description="NewTechnicalRequest" implements="force:hasRecordId,force:appHostable,force:hasSObjectName,force:lightningQuickActionWithoutHeader">
+    <lightning:notificationsLibrary aura:id="notifLib"/>
+    <!--<lightning:utilityBarAPI aura:id="utilitybar"/> implements="lightning:utilityItem"-->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+</aura:component>
