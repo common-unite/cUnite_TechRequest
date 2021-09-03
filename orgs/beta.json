@@ -16,5 +16,12 @@
       "sessionSettings": {
         "forceRelogin": false
       }
-    }  }
+    },
+    "enhancedNotesSettings": {
+      "enableEnhancedNotes": true
+    },
+    "pathAssistantSettings": {
+      "pathAssistantEnabled": true
+    }
+  }
 }

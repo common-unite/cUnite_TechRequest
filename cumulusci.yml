@@ -23,3 +23,20 @@ tasks:
     run_tests:
         options:
             required_org_code_coverage_percent: 75
+
+flows:
+    release_2gp_beta:
+        steps:
+            1:
+                options:
+                    package_type: Unlocked
+                    ancestor_id: ""
+
+    config_dev:
+        steps:
+            3:
+                flow: npsp:config_managed
+
+sources:
+    npsp:
+        github: 'https://github.com/SalesforceFoundation/NPSP'

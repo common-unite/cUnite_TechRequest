@@ -17,8 +17,11 @@
         "forceRelogin": false
       }
     },
-    "languageSettings": {
-      "enableTranslationWorkbench": true
+    "enhancedNotesSettings": {
+      "enableEnhancedNotes": true
+    },
+    "pathAssistantSettings": {
+      "pathAssistantEnabled": true
     }
   }
 }
